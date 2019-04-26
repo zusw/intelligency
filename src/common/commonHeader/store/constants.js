@@ -1,0 +1,1 @@
+export const NAV_CHANGE = "commonHeader/nav_change";

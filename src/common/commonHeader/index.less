@@ -1,0 +1,40 @@
+.commonHeader {
+  background: #999;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  .logoImg {
+    height: 40px;
+    margin-left: 30px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .headerNav {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    >li {
+      list-style-type: none;
+      margin: 10px 20px 0;
+      font-size: 20px;
+      align-items: center;
+      height: 60px;
+      line-height: 60px;
+      &:hover {
+        color: #06f;
+        cursor: pointer;
+      }
+      .ant-dropdown-menu {
+        background: #999;
+        .ant-dropdown-menu-item {
+          text-align: center;
+          line-height: 40px;
+        }
+      }
+    }
+    >li.navActive {
+      color: #06f;
+    }
+  }
+}
